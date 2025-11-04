@@ -1,0 +1,46 @@
+h1{
+    font-family: "Arial", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+p{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-family: "Arial", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.Horizontal-list{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+div{
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 8px;
+}
