@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple Generic Page</title>
+    <style>
+        :root { --bg:#f6f7fb; --card:#fff; --accent:#2b6cb0; --muted:#6b7280; }
+        body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; background:var(--bg); color:#111; display:flex; min-height:100vh; align-items:center; justify-content:center; }
+        .card { background:var(--card); padding:2rem; border-radius:12px; box-shadow:0 6px 20px rgba(16,24,40,0.08); max-width:680px; width:92%; }
+        h1 { margin:0 0 .5rem; color:var(--accent); font-size:1.6rem; }
+        p { margin:.25rem 0 .75rem; color:var(--muted); line-height:1.5; }
+        .actions { margin-top:1rem; display:flex; gap:.5rem; }
+        .btn { padding:.5rem .9rem; border-radius:8px; border:0; cursor:pointer; font-weight:600; }
+        .btn.primary { background:var(--accent); color:#fff; }
+        .btn.ghost { background:transparent; color:var(--accent); border:1px solid rgba(43,108,176,0.12); }
+        footer { margin-top:1.25rem; font-size:.85rem; color:var(--muted); }
+    </style>
+</head>
+<body>
+    <main class="card" role="main">
+        <h1>Welcome</h1>
+        <p>This is a simple, generic HTML template — modify the content and styles to suit your project.</p>
+        <div class="actions">
+            <button class="btn primary" onclick="alert('Primary action')">Primary</button>
+            <button class="btn ghost" onclick="alert('Secondary action')">Secondary</button>
+        </div>
+        <footer>Tip: Save this file as <code>test.html</code> and open it in a browser.</footer>
+    </main>
+</body>
+</html>
